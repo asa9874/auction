@@ -38,8 +38,59 @@ main{
 }
 
 .aution-item-container{ 
+    display: flex;
+    align-items: center;
     background-color: #697565;
     width: 100%;
     height: 130px;
     border-radius: 10px;
+    gap: 10px;
+    padding: 5px;
+}
+
+
+.aution-item-image{
+    background-color: #303533;
+    width: 20%;
+    height: 100%;
+}
+
+
+
+.aution-item-title-container{
+    height: 30px;
+    background-color: #181C14;
+    text-align: center;
+}
+.aution-item-container >* {
+    text-align: center;
+}
+
+.aution-item-container >*:nth-child(1){
+    width: 20%;
+}
+
+.aution-item-container >*:nth-child(2){
+    width: 10%;
+}
+
+.aution-item-container >*:nth-child(3){
+    width: 25%;
+}
+
+.aution-item-container >*:nth-child(4){
+    width: 10%;
+}
+
+.aution-item-container >*:nth-child(5){
+    width: 15%;
+}
+
+.aution-item-container >*:nth-child(6){
+    width: 20%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
