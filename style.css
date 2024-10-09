@@ -16,6 +16,7 @@ html, body{
     align-items: center;
     flex-direction: column;
     background-color: #303533;
+    min-width: 1300px
 }
 
 nav{
@@ -133,7 +134,7 @@ table {
 }
 
 td {
-    overflow: hidden; /* 넘치는 내용 숨기기 *//
+    overflow: hidden; /* 넘치는 내용 숨기기 */
     white-space: nowrap; /* 줄 바꿈 방지 */
     padding: 3px; /* 여백 추가 */
 }
